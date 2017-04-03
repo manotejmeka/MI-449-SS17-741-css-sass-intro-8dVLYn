@@ -1,0 +1,50 @@
+@import "_variables";
+
+body {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+  background-color: $background-color;
+}
+
+h1 {
+  font-size: $font-base-size * 2.25;
+}
+
+h2 {
+  font-size: $font-base-size * 2;
+}
+
+h3 {
+  font-size: $font-base-size * 1.75;
+}
+
+button {
+  color: $primary-color;
+  border-color: $primary-color;
+  background-color: lighten($primary-color, 50%);
+}
+
+nav {
+  background-color: #ec9a29;
+  ol {
+    list-style: none;
+    a {
+      font-weight: bold;
+      color: white;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.row {
+  .column {
+    background-color: #c6ecae;
+  }
+}
+
+img, input[type="text"], textarea {
+  border-radius: $font-base-size * .15;
+  border-color: $secondary-color;
+}
