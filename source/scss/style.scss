@@ -19,6 +19,19 @@ h3 {
   font-size: $font-base-size * 1.75;
 }
 
+h4 {
+  font-size: $font-base-size * 1.5;
+  color: $third-color;
+}
+
+h5 {
+  font-size: $font-base-size * 1.25;
+}
+
+h6 {
+  font-size: $font-base-size * 1.1;
+}
+
 button {
   color: $primary-color;
   border-color: $primary-color;
@@ -45,7 +58,28 @@ nav {
   }
 }
 
-img, input[type="text"], textarea {
+img, input, textarea {
   border-radius: $font-base-size * .15;
   border-color: $secondary-color;
+}
+
+figcaption {
+  background-color: $secondary-color;
+}
+
+a {
+  text-decoration:none;
+  font-size: $font-base-size * 1.2;
+}
+
+table {
+  background-color: $secondary-color;
+  
+  tr {
+    font-weight: bold;
+    font-size: $font-base-size * 2;
+  }
+  td {
+    font-size: $font-base-size * 1.5;
+  }
 }
